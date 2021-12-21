@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------ */
+.container-1{
+    max-width: 947px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container-2{
+    max-width: 762px;
+    margin: 0 auto;
+    position: relative;
+    background-color: rebeccapurple
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.left{
+    float: left;
+    background-color: aquamarine;
+}
+
+.right{
+    float: right;
+    background-color: rosybrown;
+}
+
+ul, a{
+    list-style: none;
+    text-decoration: none;
+}
+/* navigazione */
+nav ul li{
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px 10px;
+}
+
+nav ul li a{
+    color: black;
+}
+
+nav div.right ul li:last-of-type a{
+    color: white;
+    background-color: #1f64f9;
+    padding: 6px 15px;
+}
+
+/* jumbotron */
+.jumbotron{
+    background-color: #b3cee4;
+}
+
+div.right img{
+    width: 60%;
+}
