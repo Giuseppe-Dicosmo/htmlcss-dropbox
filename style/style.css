@@ -63,21 +63,20 @@ nav div.right ul li:last-of-type a{
 /* jumbotron */
 .jumbotron{
     background-color: #b3cee4;
+    padding: 50px 0;
 }
 
 .container-2 h1{
-font-size: 55px;
-padding: 35px 0 20px 0;
+    font-size: 55px;
+    padding: 0 0 20px 0;
 }
 
 div.jumbo div.left {
     width: 40%;
-    display: inline;
 }
 
 div.jumbo div.right {
     width: calc(60% - 20px);
-    display: inline;
 }
 
 div.jumbo div.right img{
@@ -85,7 +84,7 @@ div.jumbo div.right img{
 }
 
 div.jumbo div.left p{
-padding-bottom: 35px;
+    padding-bottom: 35px;
 }
 
 div.jumbo div.left a{
@@ -97,13 +96,13 @@ div.jumbo div.left a{
 div.jumbo div.left div{
     padding-top: 20px;
 }
-div.jumbo div.left div strong{
+div.jumbo div.left div i{
     font-size: 25px;
 }
 
 /* main */
 main div.container-3 section{
-margin: 100px 0;
+    margin: 100px 0;
 }
 
 .description-top{
@@ -114,16 +113,23 @@ margin: 100px 0;
 }
 
 main div.container-3 section .checkbox{
-position: absolute;
-bottom: 0;
+    position: absolute;
+    bottom: 0;
 }
 
+/* card */
 .card{
-    margin: 30px 0;
+    margin: 30px 10px;
     border: 1px solid black;
-    background: #abcfe7;
-    width: calc( ( 100% / 3 ) - 10px );
+    width: calc((100% / 3) - 20px);
     min-height: 400px;
     float: left;
+}
+
+.icons{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid black ;
+    font-weight: lighter;
 }
 
