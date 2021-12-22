@@ -138,6 +138,11 @@ main div.container-3 section .checkbox{
     float: left;
 }
 
+.bottom{
+    width: 100%;
+    height: 150px;
+}
+
 .icons{
     text-align: center;
     padding: 10px;
@@ -145,18 +150,15 @@ main div.container-3 section .checkbox{
     font-weight: lighter;
 }
 
-.ciao{
-    border: 1px solid black;
-}
-
 .space{
     padding: 10px;
 }
 
-.bottom{
-    width: 100%;
-    height: 150px;
+div.info ul li{
+    display: inline-flex;
 }
+
+
 
 
 
