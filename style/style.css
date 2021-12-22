@@ -116,9 +116,13 @@ div.jumbo div.left div i{
 }
 
 /* main */
+main h2{
+    font-size: 40px;
+}
+
 .description-top{
-    margin: 20px 0;
-    height: 80px;
+    margin: 30px 0;
+    height: 120px;
     width: 100%;
     position: relative;
 }
@@ -130,7 +134,7 @@ main div.container-3 section .checkbox{
 }
 
 section{
-    margin: 150px 0;
+    margin: 180px 0 130px 0;
 }
 
 /* card */
@@ -138,16 +142,16 @@ section{
     margin: 0 30px;
     border: 1px solid lightgray;
     width: calc((100% / 3) - 40px);
-    min-height: 800px;
+    min-height: 750px;
     float: left;
 }
 
 div.card:nth-of-type(2){
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 div.card:nth-of-type(4){
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .icons{
@@ -211,7 +215,7 @@ div.card:nth-of-type(4){
     height: 1px;
     width: 30px;
     background-color: lightgray;
-    margin: 30px 0;
+    margin: 25px 0;
 }
 
 .card-footer h4{
@@ -295,7 +299,107 @@ div.card:nth-of-type(4){
     padding: 10px;
 }
 
+/* operazioni */
+.operations{
+    width: 100%;
+    min-height: 900px;
+    margin-bottom: 180px;
+}
 
+.operations .left{
+    margin: 25px;
+    width: calc((100% / 3) - 34px);
+    height: 450px;
+}
+
+.operations
+.left:nth-of-type(1),
+.left:nth-of-type(4) {
+    margin-left: 0;
+}
+
+.operations .left:nth-of-type(3n){
+    margin-right: 0;
+}
+
+.operations .left img{
+    width: 100%;
+}
+
+.operations .left h3{
+    font-size: 25px;
+}
+.operations .left p{
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+/* partnership */
+.title-partnership  div{
+    margin: 30px 0;
+}
+
+.title-partnership  div a{
+    color: #1f64f9;
+    text-decoration: underline;
+}
+.partnership{
+    height: 300px;
+    border: 1px solid;
+}
+
+.partnership
+.container-left,
+.container-right{
+    width: 25%;
+    height: 100%;
+}
+
+.partnership .container-center{
+    width: 50%;
+    height: 100%;
+    background-color: #f3f3f3;
+    padding: 30px;
+    font-size: 13px;
+}
+
+.partnership .container-center img{
+    width: 20%;
+}
+
+.partnership .container-center p{
+    margin-bottom: 40px;
+
+}
+
+.partnership .container-center p::before{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 30px;
+    background-color: lightgray;
+    margin: 25px 0;
+}
+
+.partnership
+.container-left .left,
+.container-right .left {
+    width: calc(100% /2);
+    height: calc(100% /2);
+
+    background-color: crimson;
+    border: 1px black solid;
+}
+
+.partnership
+.container-left .left img,
+.container-right .left img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 
 
