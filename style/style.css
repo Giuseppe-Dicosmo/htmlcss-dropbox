@@ -4,20 +4,26 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Candal', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
 /* ------------ */
 .container-1{
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     position: relative;
 }
 
 .container-2{
-    max-width: 1000px;
+    max-width: 1160px;
     margin: 0 auto;
     position: relative;
 }
 .container-3{
-    max-width: 800px;
+    max-width: 970px;
     margin: 0 auto;
     position: relative;
 }
@@ -47,9 +53,6 @@ ul, a{
 /* navigazione */
 nav .container-1 .right{
     padding: 6px 0;
-    position: absolute;
-    bottom: 0;
-    right: 0;
 }
 
 nav ul li{
@@ -81,15 +84,15 @@ nav div.right ul li:last-of-type a{
 }
 
 div.jumbo div.left {
-    width: 40%;
+    max-width: 40%;
 }
 
 div.jumbo div.right {
-    width: calc(60% - 20px);
+    max-width: 60%
 }
 
 div.jumbo div.right img{
-    width: 600px;
+    width: 650px;
     position: absolute;
     top: 0;
     right: 0;
@@ -105,20 +108,16 @@ div.jumbo div.left a{
     color: white;
 }
 
-div.jumbo div.left div{
-    padding-top: 20px;
+div.jumbo div.left div:first-of-type{
+    margin: 20px 0 40px 0;
 }
 div.jumbo div.left div i{
     font-size: 25px;
 }
 
 /* main */
-main div.container-3 section{
-    margin: 100px 0;
-}
-
 .description-top{
-    margin: 150px 0 20px 0;
+    margin: 20px 0;
     height: 80px;
     width: 100%;
     position: relative;
@@ -126,37 +125,110 @@ main div.container-3 section{
 
 main div.container-3 section .checkbox{
     position: absolute;
+    left: 0;
     bottom: 0;
+}
+
+section{
+    margin: 150px 0;
 }
 
 /* card */
 .card{
-    margin: 10px;
+    margin: 0 30px;
     border: 1px solid lightgray;
-    width: calc((100% / 3) - 20px);
-    height: 600px;
+    width: calc((100% / 3) - 40px);
+    min-height: 800px;
     float: left;
 }
 
-.bottom{
+div.card:nth-of-type(2){
+    margin-left: 0px;
+}
+
+div.card:nth-of-type(4){
+    margin-right: 0px;
+}
+
+div.card:nth-of-type(5) {
     width: 100%;
-    height: 150px;
+    min-height: 150px;
+    margin: 60px 0 0 0;
 }
 
 .icons{
     text-align: center;
     padding: 10px;
     border-bottom: 1px solid lightgray;
-    font-weight: lighter;
 }
 
 .space{
-    padding: 10px;
+    margin: 20px;
+    font-size: 13px;
+}
+.card-header h3{
+    font-size: 20px;
+}
+.card-header div:first-of-type{
+    margin: 15px 0 5px 0;
+    font-weight: bold;
 }
 
-div.info ul li{
-    display: inline-flex;
+.card-header div:last-of-type{
+    color: gray;
 }
+
+.card i{
+    margin:  0 2px;
+}
+
+.card ul li{
+    display: block;
+    margin: 15px 0;
+}
+
+.card-header{
+    margin-bottom: 20px;
+}
+
+.card-main div {
+    text-align: center;
+    padding: 5px;
+    background-color: #1f64f9;
+    margin: 20px 0;
+}
+
+.card-main div a{
+    color: white;
+}
+
+.card-main p{
+    margin-bottom: 20px;
+}
+
+.card-main p a{
+    text-decoration: underline;
+    color: #1f64f9;
+}
+
+.card-main::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 30px;
+    background-color: lightgray;
+    margin: 30px 0;
+}
+
+.card-footer h4{
+    margin-bottom: 20px;
+}
+
+.card-footer i{
+    color: #1f64f9;
+}
+
+/* card bottom */
 
 
 

@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Candal&family=Open+Sans:wght@500&family=Roboto:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style/style.css">
     <meta charset="UTF-8">
@@ -12,23 +17,23 @@
     <header>
         <nav>
             <div class="container-1 clearfix">
+
+                <ul class="left">
+                    <li><a href="https://www.dropbox.com/it/"><img src="img/logo-small.png" alt=""></a></li>
+                    <li><a href="#">perchè dropbox?</a></li>
+                    <li><a href="#">funzioni</a></li>
+                    <li><a href="#">piani e prezzi</a></li>
+                </ul>
                 <div class="left">
-                    <ul>
-                        <li><a href="https://www.dropbox.com/it/"><img src="img/logo-small.png" alt=""></a></li>
-                        <li><a href="#">perchè dropbox?</a></li>
-                        <li><a href="#">funzioni</a></li>
-                        <li><a href="#">piani e prezzi</a></li>
-                    </ul>
                 </div>
 
-                <div class="right">
-                    <ul>
-                        <li><a href="#">supporto</a></li>
-                        <li><a href="#">contatta l'ufficio vendite</a></li>
-                        <li><a href="#">accedi</a></li>
-                        <li><a href="#">inizia</a></li>
-                    </ul>
-                </div>
+                <ul class="right">
+                    <li><a href="#">supporto</a></li>
+                    <li><a href="#">contatta l'ufficio vendite</a></li>
+                    <li><a href="#">accedi</a></li>
+                    <li><a href="#">inizia</a></li>
+                </ul>
+
             </div>
         </nav>
 
@@ -55,8 +60,8 @@
     </header>
 
     <main>
-        <div class="container-3 clearfix">
-            <section>
+        <div class="container-3">
+            <section class="clearfix">
                 <div class="description-top">
                     <h2>Trova il piano Dropbox Business che fa per te</h2>
 
@@ -68,55 +73,130 @@
                         <label for="Fatturazione mensile">Fatturazione annuale</label>
                     </div>
                 </div>
-
                 <div class="card">
+                    <!-- inizio card 1 -->
                     <div class="icons"><i class="far fa-user"></i>Singolo</div>
 
                     <div class="space">
 
-                        <div class="price">
+                        <div class="card-header">
                             <h3>Professional</h3>
                             <div>19.99€</div>
                             <div>/mese</div>
                         </div>
 
-                        <div class="info">
+                        <div class="card-main">
                             <ul>
-                                <li><i class="fas fa-user"></i>1 utente</li>
-                                <li><i class="far fa-folder"></i>3 TB di archiviazione sicuro</li>
-                                <li><i class="fas fa-pencil-alt"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                                <a href="#">Prova gratis per 30 giorni</a>
-
-                                <div>oppure <a href="#">acquista ora</a></div>
+                                <li><i class="fas fa-user"></i> 1 utente</li>
+                                <li><i class="far fa-folder"></i> 3 TB di archiviazione sicuro</li>
+                                <li><i class="fas fa-pencil-alt"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
                             </ul>
-
-
                             <div>
-                                <h4>Punti salienti del piano</h4>
-                                <ul class="check-mark">
-                                    <li><i class="fas fa-check"></i>Invia file a 100 GB con Dropbox Transfert</li>
-                                    <li><i class="fas fa-check"></i>Cartelle offine su dispositivi mobili </li>
-                                    <li><i class="fas fa-check"></i>Pulizia remota dell'account</li>
-                                    <li><i class="fas fa-check"></i>Filigrana documneto</li>
-                                    <li><i class="fas fa-check"></i>Assistenza prioritaria via email e chat</li>
-                                </ul>
+                                <a href="#">Prova gratis per 30 giorni</a>
                             </div>
+
+                            <p>oppure <a href="#">acquista ora</a></p>
+                        </div>
+
+                        <div class="card-footer">
+                            <h4>Punti salienti del piano</h4>
+                            <ul class="check-mark">
+                                <li><i class="fas fa-check"></i> Invia file a 100 GB con Dropbox Transfert</li>
+                                <li><i class="fas fa-check"></i> Cartelle offine su dispositivi mobili </li>
+                                <li><i class="fas fa-check"></i> Pulizia remota dell'account</li>
+                                <li><i class="fas fa-check"></i> Filigrana documneto</li>
+                                <li><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
+                            </ul>
                         </div>
                     </div>
+                    <!-- fine card -->
+                </div>
 
-                </div>
                 <div class="card">
+                    <!-- inizio card 2 -->
                     <div class="icons"><i class="far fa-building"></i>Team</div>
+
+                    <div class="space">
+
+                        <div class="card-header">
+                            <h3>Professional</h3>
+                            <div>19.99€</div>
+                            <div>/ utente / mese, a partire da 3 utenti</div>
+                        </div>
+
+                        <div class="card-main">
+                            <ul>
+                                <li><i class="fas fa-user"></i> 1 utente</li>
+                                <li><i class="far fa-folder"></i> 3 TB di archiviazione sicuro</li>
+                                <li><i class="fas fa-pencil-alt"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                            </ul>
+                            <div>
+                                <a href="#">Prova gratis per 30 giorni</a>
+                            </div>
+
+                            <p>oppure <a href="#">acquista ora</a></p>
+                        </div>
+
+                        <div class="card-footer">
+                            <h4>Punti salienti del piano</h4>
+                            <ul class="check-mark">
+                                <li><i class="fas fa-check"></i> Invia file a 100 GB con Dropbox Transfert</li>
+                                <li><i class="fas fa-check"></i> Cartelle offine su dispositivi mobili </li>
+                                <li><i class="fas fa-check"></i> Pulizia remota dell'account</li>
+                                <li><i class="fas fa-check"></i> Filigrana documneto</li>
+                                <li><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
+                                <li><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- fine card -->
                 </div>
+
                 <div class="card">
+                    <!-- inizio card 3 -->
                     <div class="icons"><i class="far fa-building"></i>Team</div>
+
+                    <div class="space">
+
+                        <div class="card-header">
+                            <h3>Professional</h3>
+                            <div>19.99€</div>
+                            <div>/ utente / mese, a partire da 3 utenti</div>
+                        </div>
+
+                        <div class="card-main">
+                            <ul>
+                                <li><i class="fas fa-user"></i> 1 utente</li>
+                                <li><i class="far fa-folder"></i> 3 TB di archiviazione sicuro</li>
+                                <li><i class="fas fa-pencil-alt"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                            </ul>
+                            <div>
+                                <a href="#">Prova gratis per 30 giorni</a>
+                            </div>
+
+                            <p>oppure <a href="#">acquista ora</a></p>
+                        </div>
+
+                        <div class="card-footer">
+                            <h4>Punti salienti del piano</h4>
+                            <ul class="check-mark">
+                                <li><i class="fas fa-check"></i> Invia file a 100 GB con Dropbox Transfert</li>
+                                <li><i class="fas fa-check"></i> Cartelle offine su dispositivi mobili </li>
+                                <li><i class="fas fa-check"></i> Pulizia remota dell'account</li>
+                                <li><i class="fas fa-check"></i> Filigrana documneto</li>
+                                <li><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
+                                <li><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- fine card -->
                 </div>
+
                 <div class="card bottom">
                     <div class="icons"><i class="far fa-building"></i>Team</div>
                 </div>
             </section>
         </div>
     </main>
-
 </body>
 </html>
