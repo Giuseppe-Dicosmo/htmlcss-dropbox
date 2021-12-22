@@ -261,18 +261,38 @@ div.card:nth-of-type(4){
 }
 
 /* articolo */
-article{
+.description{
     width: 100%;
     min-height: 0;
-    background-color: yellowgreen;
+    margin-bottom: 100px;
 }
 
-article .left{
+.description .left{
     width: 50%;
 }
 
-article .left img{
+.description .left img{
     width: 100%;
+}
+
+.description .right{
+    width: 50%;
+    padding: 40px 0 0 40px;
+}
+
+.description .right h3{
+    font-size: 30px;
+}
+
+.description .right p{
+    margin: 30px 0 40px 0;
+    line-height: 30px;
+}
+
+.description .right a{
+    border: 1px solid black;
+    color: black;
+    padding: 10px;
 }
 
 
